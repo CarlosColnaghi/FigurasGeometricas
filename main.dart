@@ -9,7 +9,7 @@ void main(){
     Circulo(3, 4, 5),
     Retangulo(1, 2, 5, 5),
     Retangulo(9, 5, 2, 5),
-    Triangulo(5, 6, 2, 5, 4)
+    Triangulo(5, 6, 2, 5, 5)
   ];
 
   for(final figura in figuras){
