@@ -12,7 +12,7 @@ class Triangulo extends Figura{
   void getTipo(){
     if(!((_face1+_face2) > _face3 && (_face1+_face3) > _face2 && (_face2+_face3) > _face1)){
       print("Nao eh um triangulo");
-    }else if((_face1 == _face2) && (_face1 == _face3) && (_face2 == _face3)){
+    }else if((_face1 == _face2) && (_face2 == _face3)){
       print("Triangulo Equilatero");
     }else if((_face1 == _face2) || (_face1 == _face3) || (_face2 == _face3)){
       print("Triangulo Isosceles");
